@@ -7,6 +7,7 @@ import telebot
 from pydub import AudioSegment
 from dotenv import load_dotenv, find_dotenv
 
+# Take environment variables from .env
 load_dotenv(find_dotenv())
 
 # Initialize the Telegram bot
